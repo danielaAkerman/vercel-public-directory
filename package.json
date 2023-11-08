@@ -3,19 +3,32 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:danielaAkerman/vercel-public-directory.git",
+<<<<<<< HEAD
   "author": "Daniela Akerman <daniela.akerman@outlook.com>",
   "license": "MIT",
+=======
+  "author": "Daniela Akerman",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+>>>>>>> 11d64b820d48543f17d010af56f273f81086a152
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next"
   },
+<<<<<<< HEAD
   "dependencies": {
     "micro-method-router": "^0.1.0",
     "next": "^13.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
+=======
+>>>>>>> 11d64b820d48543f17d010af56f273f81086a152
   "devDependencies": {
     "@types/node": "20.7.0",
     "@types/react": "18.2.23",

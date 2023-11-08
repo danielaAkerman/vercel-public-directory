@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import type { NextApiRequest, NextApiResponse } from "next"
 import methods from "micro-method-router"
 
@@ -14,3 +15,9 @@ export default methods({
         res.send(`Permite modificar algunos datos del usuario al que pertenezca el token usado en el request.`)
     }
 })
+=======
+export default function (req,res){
+    const miNombre: string= "Dani"
+    res.send(miNombre)
+}
+>>>>>>> 11d64b820d48543f17d010af56f273f81086a152
